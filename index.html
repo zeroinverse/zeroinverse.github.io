@@ -19,6 +19,50 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
+  <style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 49.99999%;
+}
+
+@media only screen and (max-width: 991px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
   <link href="css/resume.min.css" rel="stylesheet">
 
 </head>
@@ -55,6 +99,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#activities">Activities</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -76,16 +123,16 @@
         </div>
         <p class="lead mb-5">I am an Undergraduate Student of Computer Science and Engineering, a tech enthusiast interested in Data Science, Machine Learning, System Design, and research in these fields.</p>
         <div class="social-icons">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/ujjwel/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/zeroinverse/">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
+          <!-- <a href="https://twitter.com/ujjwelbalwal">
             <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
+          </a> -->
+          <a href="https://www.facebook.com/ujjwel.balwal">
             <i class="fab fa-facebook-f"></i>
           </a>
         </div>
@@ -203,7 +250,10 @@
               openCV</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              IBM Watson</li>
+              IBM Cloud, Microsoft Azure</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              LaTeX</li>
           </ul>
         <!-- <ul class="list-inline dev-icons">
           <li class="list-inline-item">
@@ -295,6 +345,31 @@
             3<sup>rd</sup>
             Place - James Buchanan High School - Hackathon 2005</li> -->
         </ul>
+      </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="activities">
+      <div class="w-100">
+        <h2 class="mb-5">Activities</h2>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank">
+              <img src="img/defexpo.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Receiving the certificate of appreciation from Governor of Tamil Nadu | DefExpo (2018)</div>
+          </div>
+        </div>
+
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank">
+              <img src="img/comic_strip.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">The Comic Strip Corner I volunteerd in organizing | My college's Technical Fest (2017)</div>
+          </div>
+        </div>
+
       </div>
     </section>
 
